@@ -1,0 +1,167 @@
+@media screen and (max-width:750px){
+/* ----------all---------- */
+  .visible-sp{
+    display:block;
+  }
+  .hidden-sp{
+    display:none !important;
+  }
+  body{
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .fixedcontainer{
+    /* width: 94%; */
+  }
+
+/* ----------header---------- */
+  .header_in{
+    padding: 10px 0;
+    height: 40px;
+  }
+
+  .header_left p {
+    font-size: 8px;
+  }
+  
+  .header-ver {
+    padding: 3px 12px;
+  }
+  
+  .header_right p {
+    font-size: 10px;
+  }
+
+/* ----------main---------- */
+#main{
+  height: 400px;
+  padding: 100px 0 0;
+}
+
+.main-ttl {
+  font-size: 20px;
+}
+
+.main_txt h1 img {
+  width: 370px;
+}
+
+.main_txt h2 {
+  font-size: 24px;
+}
+
+.sub-ttl {
+  font-size: 20px;
+}
+
+/* ----------content---------- */
+
+  h2 {   
+      font-size: 20px;
+      margin-bottom: 5vw;
+  }
+  .content {
+      line-height: 1.5;
+      font-size: 14px;
+  }
+  .content span{
+      font-size: 18px;
+  }
+  #content4 p img{
+      position: initial;
+      margin-top: 20px;
+  }
+
+/* ----------profile---------- */
+  #profile{
+      padding: 10vw 0 2vw;
+  }
+  .profile_ttl {
+      font-size: 20px;
+      text-align: center;
+  }
+  .profile_in {
+      display: block;
+  }
+  .profile_img {
+      width: 100%;
+      text-align: center;
+  }
+  .profile_txt {
+      width: 100%;
+      margin-top: 20px;
+      font-size: 14px;
+  }
+
+/* ----------footer---------- */
+  .footer_buttom{
+      height: auto;
+  }
+
+/* ----------company---------- */
+  .oneday_seminar_detail th, .oneday_seminar_detail td{
+      display: block;
+      width: 100% !important;
+  }
+  .oneday_seminar_detail thead th{
+      font-size: 18px;
+      padding-left: 10px;
+  }
+  .oneday_seminar_detail tbody th{
+      border-right: none;
+      border-left: none;
+      font-size: 16px;
+  }
+  .oneday_seminar_detail tbody td{
+      border: none;
+      font-size: 12px;
+      padding: 0 10px;
+  }
+  .oneday_seminar_detail tbody td:last-child{
+      padding-bottom: 10px;
+  }
+  .oneday_seminar_detail tbody td:nth-child(2){
+      padding-top: 10px;
+  }
+  .oneday_seminar_detail iframe{
+      width: 100%;
+  }
+  .tb-txt1{
+      font-size: 12px;
+  }
+  span.num{
+      font-size: 14px;
+  }
+  .tb-ttl{
+      font-size: 14px;
+  }
+  .tb-txt3{
+      padding-left: 0;
+      padding-right: 0;
+      line-height: 1.5;
+  }
+  .fancybox-media{
+      position: initial;
+      width: 100%;
+      margin-bottom: 5vw;
+  }
+  .contact-div{
+      padding: 5vw 0;
+  }
+  #company{
+      padding: 10vw 0;
+  }
+  .contact2{
+      margin-top: 5vw;
+  }
+
+  .table_img_flex {
+    justify-content: center;
+  }
+
+  .table_img_flex img {
+    padding: 0 5px;
+    width: 150px;
+  }
+
+  }

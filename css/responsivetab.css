@@ -1,0 +1,81 @@
+@media screen and (max-width:1000px){
+/* ----------all------------ */
+  .fixedcontainer{
+    width: 94%;
+  }
+
+/* ----------header---------- */
+
+  .header_in{
+    height: 60px;
+  }
+  
+  .header_left p {
+    font-size: 18px;
+  }
+  
+  .header-ver {
+    padding: 3px 30px;
+  }
+  
+  .header_right p {
+    font-size: 20px;
+  }
+  
+/* ----------main----------- */
+#main{
+  height: 700px;
+  padding: 180px 0 30px;
+	box-sizing: border-box;
+	background: url(../images/main_bg.jpeg) no-repeat;
+	background-size: cover;
+	background-position: center top;
+	text-align: center;
+  position: relative;
+  color: #ffffff;
+}
+#main::after{
+  background-size: 90%;
+  height: 150px;
+}
+
+.main-ttl {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.main_txt h1 img {
+  width: 750px;
+}
+
+.main_txt h2 {
+  font-size: 40px;
+}
+
+.sub-ttl {
+  font-size: 20px;
+}
+
+/* ----------content---------- */
+#content4 img {
+  width: 130px;
+}
+
+/* ----------profile---------- */
+.profile_txt{
+  width: 500px;
+  font-size: 14px;
+}
+
+/* ----------company---------- */
+.table_img_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table_img_flex img {
+  width: 130px;
+}
+
+}
